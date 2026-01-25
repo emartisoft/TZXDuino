@@ -27,7 +27,7 @@ Hardware schematic image (PNG) licensed under CC BY-SA 4.0, author: emarti, Mura
 ![STL screenshot](hardware/stl/screenshot.png)
 
 ## Custom Logo for TZXDuino
-If you want to create your own startup logo for TZXDuino, you can compile the Rust project inside the change_logo folder.
+If you want to create your own startup logo for TZXDuino, you can compile the Rust project inside the `change_logo` folder.
 
 Alternatively, you can download the prebuilt 64-bit Windows application from the release section.
 
