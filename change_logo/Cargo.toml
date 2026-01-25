@@ -1,0 +1,19 @@
+[package]
+name = "change_logo"
+version = "1.0.0"
+edition = "2024"
+build = "build.rs"
+
+[dependencies]
+fltk = { version = "1.5.22", features = ["fltk-bundled"] }
+image = "0.25.9"
+
+[build-dependencies]
+winres = "0.1.12"
+
+[profile.release]
+panic = "abort"
+
+[profile.dev]
+panic = "abort"
+
