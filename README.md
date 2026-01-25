@@ -13,3 +13,22 @@ See [README_seeeduino_xiao_m0.md](README_seeeduino_xiao_m0.md)
 ## Credits
 Original Code and Testing: Andrew Beer & Duncan Edwards
 Additional support, ideas, and testing: Duncan Edwards
+
+## Hardware schematic image (PNG)
+*Connection diagram showing how to build a TZXDuino setup for ZX Spectrum 48K with Arduino Nano, SSD1306 OLED, and PAM8403 amplifier.*
+
+![TZXDuino ZX Spectrum 48K Hardware Schematic](hardware/schema/tzxduino_schema.png)
+
+Hardware schematic image (PNG) licensed under CC BY-SA 4.0, author: emarti, Murat Özdemir
+
+## 3D enclosure files (STL)
+3D enclosure files designed by emarti Murat Özdemir, licensed under MIT License
+
+![STL screenshot](hardware/stl/screenshot.png)
+
+## Custom Logo for TZXDuino
+If you want to create your own startup logo for TZXDuino, you can compile the Rust project inside the change_logo folder.
+
+Alternatively, you can download the prebuilt 64-bit Windows application from the release section.
+
+![OLED SSD1306 Logo Editor for TZXDuino](change_logo/screenshot.png)

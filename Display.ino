@@ -5,6 +5,10 @@
 
   #define OLED_address   0x3C //0x3C or 0x3D
 
+#ifdef CUSTOM_LOGO
+#include "customlogo.h"
+#else
+
  // 'Arduitape_128x32'
 const byte logo [] PROGMEM = {
 
@@ -42,6 +46,8 @@ const byte logo [] PROGMEM = {
 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x18, 0x08, 0x08, 0x07, 0x00, 0x00
 
 };
+
+#endif
   
 // Small 8x8 font
 const unsigned char myFont[][8] PROGMEM = {

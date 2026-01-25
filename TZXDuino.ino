@@ -332,7 +332,9 @@ void loop(void) {
        for(int i=0; i<subdir; i++)
        {
          tmpdir.open(&dir, prevSubDirIndex[i], O_RDONLY);
-         dir = tmpdir;
+         //dir = tmpdir;
+         dir.close();
+         dir.open(tmpdir);
          tmpdir.close();
        }
      
@@ -597,7 +599,9 @@ void changeDir() {
       subdir++;
     }
     tmpdir.open(&dir, fileIndex, O_RDONLY);
-    dir = tmpdir;
+    //dir = tmpdir;
+    dir.close();
+    dir.open(tmpdir);
     tmpdir.close();
   }
   getMaxFile();
