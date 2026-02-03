@@ -25,6 +25,7 @@ Hardware schematic image (PNG) licensed under CC BY-SA 4.0, author: emarti, Mura
 3D enclosure files designed by emarti Murat Özdemir, licensed under MIT License
 
 ![STL screenshot](hardware/stl/screenshot.png)
+![STL screenshot2](hardware/stl/printed.jpg)
 
 ## Custom Logo for TZXDuino
 If you want to create your own startup logo for TZXDuino, you can compile the Rust project inside the `change_logo` folder.
