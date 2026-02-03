@@ -15,7 +15,7 @@ Original Code and Testing: Andrew Beer & Duncan Edwards
 Additional support, ideas, and testing: Duncan Edwards
 
 ## Hardware schematic image (PNG)
-*Connection diagram showing how to build a TZXDuino setup for ZX Spectrum 48K with Arduino Nano, SSD1306 OLED, and PAM8403 amplifier.*
+*Connection diagram showing how to build a TZXDuino setup for ZX Spectrum 48K with Arduino Nano and SSD1306 OLED.*
 
 ![TZXDuino ZX Spectrum 48K Hardware Schematic](hardware/schema/tzxduino_schema.png)
 
